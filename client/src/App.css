@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 200;
+  align-items: center;
+  background-color: #0c0c2c;
+  color: #82b6c0;
+  height: 100vh;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.leaflet-container {
+  height: 45vh;
+  width: 100%;
+}
+
+.search {
+  text-align: center;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.search-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+button[name="find-me"],
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #82b6c0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[name="find-me"]:hover,
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
